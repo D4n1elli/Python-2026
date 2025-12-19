@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Code made in 19/12/2025
+
 int number_choose();
 
 // Checks if number is prime
