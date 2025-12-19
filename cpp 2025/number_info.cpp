@@ -48,7 +48,7 @@ int checks_and_outputs(){
     if(triangular == true){cout << "Is triangular\n";} else {cout << "Is not triangular\n";}
     if (number == 0){cout << "Is neutral\n";} else if(positive == true){cout << "Is positive\n";} else {cout << "Is negative\n";}
     if(even == true){cout << "Is even\n";} else {cout << "Is odd\n";}   
-    if(perfect_square == true){cout << "Is a perfect square\n";} else {cout << "Is not a perfect square\n";}  
+    if(perfect_square == true){cout << "Is a perfect square\n";} else {cout << "Is not a perfect square\n\n";}  
     return number;
 }
 
