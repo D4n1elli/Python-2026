@@ -5,11 +5,9 @@ using namespace std;
 
 int number_choose();
 
-int divisors_amount(int num){
+int divisors_ammount(int num){
     if (num == 1){return 1;}
     int divisors = 1;
-
-    if (num < 0){return 0;}
     for(int divisor = num/2; divisor>=1; divisor--){
         if (num%divisor == 0){divisors++;}
     }
@@ -17,7 +15,7 @@ int divisors_amount(int num){
 }
 
 // After making the divisors function I realized I could simply make it prime or not by using the divisors variable
-// But i'll keep the prime function to show i did it
+// But i'll keep the prime function
 
 // Checks if number is prime
 bool is_prime(int num){
@@ -58,12 +56,10 @@ int checks_and_outputs(){
     bool positive; if (number > 0){positive = true;} else if (number < 0) {positive = false;}
     bool even; if (number % 2 == 0){even = true;} else {even = false;}
     bool perfect_square = is_perfectsquare(number);
-    int divisors = divisors_amount(number);
+    int divisors = divisors_ammount(number);
 
     // Couts
-    if (number != 0){cout << "It has "<< divisors << " divisors\n";}
-    else {cout << "0 has infinite divisors\n";}
-
+    cout << "It has "<< divisors << " divisors\n";
     if(prime == true){cout << "Is prime\n";} else {cout << "Is not prime\n";}
     if(triangular == true){cout << "Is triangular\n";} else {cout << "Is not triangular\n";}
     if (number == 0){cout << "Is neutral\n";} else if(positive == true){cout << "Is positive\n";} else {cout << "Is negative\n";}
