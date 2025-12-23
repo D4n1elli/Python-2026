@@ -14,7 +14,7 @@ bool is_palindrom(string word){
 
 
 int main(){
-    cout << "Type a text to know if it is a palindrom\nType 0 to stop";
+    cout << "\nType a text to know if it is a palindrom\nType 0 to stop\n";
 
     string user_text;
 
