@@ -17,6 +17,7 @@ int main(){
     int sum = 0;
     int numbers[array_size]{};
     for (int i = 0; i < array_size; i++){
+        std::cout << "Number " << i+1 << std::endl;
         std::cin >> numbers[i];
         sum += numbers[i];
     }
