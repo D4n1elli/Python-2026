@@ -1,3 +1,5 @@
+# Code made in 19/01/2026
+
 # Input, validation and calculates the mult table
 # Returns true or false (true: code is repeated, false: program finishes)
 def run_mult_table():
