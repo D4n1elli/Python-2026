@@ -1,4 +1,4 @@
-# Fibonacci numbers
+# Exercise: find all Fibonacci numbers from 1 to 1000
 # 02/02/2026
 
 # Function to calculate the numbers
