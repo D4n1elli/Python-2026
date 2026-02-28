@@ -8,7 +8,6 @@ def smallest_multiple():
     while divisor <= 20:
         if x % divisor == 0:
             divisor += 1
-        
         else:
             x += 1
             divisor = 2
