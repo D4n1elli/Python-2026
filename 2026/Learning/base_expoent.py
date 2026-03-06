@@ -1,4 +1,5 @@
 # Challenge: print the result of the base by the expoent
+# 02/03/2026
 
 # Gets the input of the base and expoent and calculates the result
 def power_calculator():
